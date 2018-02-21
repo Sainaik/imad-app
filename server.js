@@ -18,15 +18,15 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/sai',function (req,res){
-  res.sendFile('1. u called sai');    
+  res.send('1. u called sai');    
 });
 
-app.get('/sai kumar',function(req,res){ 
-    res.sendFile('2 .u called sai kumar');
+app.get('/saikumar',function(req,res){ 
+    res.send('2 .u called sai kumar');
 });
 
-app.get('/sai kumar naik',function(req,res){
-  res.sendFile('3. called sai kumar naik')  ;
+app.get('/saikumarnaik',function(req,res){
+  res.send('3. called sai kumar naik')  ;
 });
 
 
